@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+    <type name="example" translate="label,description" instance="Yireo\ExampleCache\Model\Cache\Type">
+        <label>Example</label>
+        <description>Simple demonstration of a custom cache</description>
+    </type>
+</config>
