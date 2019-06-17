@@ -21,6 +21,9 @@
         "composer/composer":"*@dev"
     },
     "autoload": {
+        "psr-4": {
+            "Yireo\\ExampleCache\\": ""
+        },        
         "files": [
             "registration.php"
         ]
